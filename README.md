@@ -10,13 +10,16 @@ To avoid planner registration issues in OMPL, we  embedded ​​RewardRRT into 
 
 -Provides dynamic link libraries (.so) and ROS interfaces for easy integration into robotic systems.
 
--Testing Scenarios & Data​​
-1.Test data is in ​​Point Cloud format​​, simulating real-world robotic environments.
+## Testing Scenarios & Data​​
+
+-Test data is in ​​Point Cloud format​​, simulating real-world robotic environments.
 
 [ Includes ​​4 typical constrained scenarios​​ (e.g., pipe navigation, robotic arm grasping, high-obstacle environments) to validate algorithm performance in tight spaces.]
 
 ​​-Open-Source Plan​​
+
 The code has passed internal testing. Upon paper acceptance, we will ​​fully open-source​​ all implementations (C++ core, ROS wrappers, and test datasets).
+
 ！！Supports ​​custom reward functions​​ for path optimization in complex scenarios (e.g., grasping, obstacle avoidance).
 
 
