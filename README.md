@@ -4,6 +4,7 @@ This project is based on ​​OMPL (Open Motion Planning Library)​​, integr
 ## Key Features ✨ & Improvements:​​
 
 -Integration of RewardRRT into BiTRRT​​
+
 To avoid planner registration issues in OMPL, we  embedded ​​RewardRRT into ​​BiTRRT (Bidirectional T-RRT)​​. Users can directly invoke BiTRRT to utilize ​​RewardRRT​​ without additional setup.
 
 -The original code have been​ tested on ​​Ubuntu 20.04 (ROS Noetic)​​ and ​​Ubuntu 18.04 (ROS Melodic)​​ for compatibility.
