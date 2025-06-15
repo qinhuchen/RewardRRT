@@ -5,10 +5,10 @@
 | **Tree Scenario**  | Real-world | `scene4_tree.ply` | High-fidelity 3D reconstruction |
 | **Other Scenarios**  | SolidWorks CAD design | `scene1, 2, 3*.ply` | Parametric modeling → Point cloud conversion |
 
-### Technical Pipeline 技术流程
+### Technical Pipeline 
 ```mermaid
 graph LR
-    A[Real-world Capture] -->|Photogrammetry| B(Trunk.ply)
+    A[Real-world Capture] -->|Photogrammetry| B(scene4_tree.ply)
     C[CAD Design] -->|SolidWorks| D[Assembly.sldasm]
-    D -->|CloudWorks| E(Obstacles.ply)
+    D -->|CloudWorks| E(scene1, 2, 3*.ply)
     B & E --> F[OMPL Planning Environment]
