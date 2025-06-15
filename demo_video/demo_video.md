@@ -16,5 +16,4 @@
 |-----------|-------|
 | DOFs (Whole Body) | 21 |
 | Planning Space | Joint Space (C-space) |
-| Base Mobility |
 
