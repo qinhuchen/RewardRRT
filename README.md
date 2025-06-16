@@ -1,5 +1,5 @@
 # RewardRRT
-This project is based on ​​OMPL (Open Motion Planning Library)​​, integrating the ​​RewardRRT​​ algorithm into OMPL’s core planners and successfully compiling it into a dynamic link library (.so) under ​​Ubuntu 20.04 (ROS Noetic)​​.
+This project is based on ​​OMPL (Open Motion Planning Library)​​, integrating the ​​RewardRRT​​ algorithm into OMPL’s core planners and successfully compiling it into a dynamic link library (.so) under ​​Ubuntu 20.04 (ROS Noetic)​​ and Ubuntu18.04 (ROS Melodic).
 
 ## Key Features ✨ & Improvements:​​
 
