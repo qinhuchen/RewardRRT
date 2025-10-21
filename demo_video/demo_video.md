@@ -6,8 +6,8 @@
 - **Robot Constraints**:
   - Mobile base accuracy: **±1mm** within 1.5m range
   - Movement range:
-    - Longitudinal (X-axis): **[-0.7m, 0.7m]**
-    - Lateral (Y-axis): **[-0.7m, 0.7m]**
+    - Longitudinal (X-axis): **[-1.0m, 1.0m]**
+    - Lateral (Y-axis): **[-1.0m, 1.0m]**
 - **Visual Indicators**:
   - Blue markers in videos indicate **goal configurations**
 
