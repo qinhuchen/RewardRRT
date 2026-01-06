@@ -24,7 +24,6 @@ Key features of RewardRRT:
 
 ## Features & Advantages
 
-- **High Planning Efficiency:** Up to 38% faster than baseline RRT algorithms in simulation.
 - **High Success Rate:** Average planning success rate of 88.25%, outperforming the best-performing OMPL algorithm by 29.75%.
 - **Adaptive Exploration:** Dynamic bias adjustment enables effective exploration in narrow, cluttered environments.
 - **Transparency:** Reward-based mechanism avoids the overhead of data-driven learning or model training.
