@@ -22,7 +22,7 @@ Key features of RewardRRT:
 
 ---
 
-##Modification
+## Modification
 
 A change was made to the connection strategy in the code. After a successful extension towards the other tree, the algorithm now continues to extend persistently from the new node towards that tree, accelerating the connection process.
 
