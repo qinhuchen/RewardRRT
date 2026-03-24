@@ -311,7 +311,7 @@ ompl::geometric::RewardRRT::GrowResult ompl::geometric::RewardRRT::extendTree(Mo
         }
         else
         {
-            goal_reward_inc=1.0/(si_->distance(goalmotiontree.at(0)->state, toMotion->state))+beta;
+            goal_reward_inc=1.0/(si_->distance(startmotiontree.at(0)->state, toMotion->state))+beta;
             if(abs(goal_reward_inc)>=positive_reward_limit)goal_reward_inc=positive_reward_limit;
             GoalStateUpdate(goal_reward_inc);
             // StartStatePrint("goal valid");
@@ -329,7 +329,7 @@ ompl::geometric::RewardRRT::GrowResult ompl::geometric::RewardRRT::extendTree(Mo
         }
         else
         {
-            goal_reward_inc=-(1.0/(si_->distance(goalmotiontree.at(0)->state, toMotion->state))+beta);
+            goal_reward_inc=-(1.0/(si_->distance(startmotiontree.at(0)->state, toMotion->state))+beta);
             if(abs(goal_reward_inc)>=negative_reward_limit)goal_reward_inc=-negative_reward_limit;
             GoalStateUpdate(goal_reward_inc);
             // StartStatePrint("goal invalid");

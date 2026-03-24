@@ -1,0 +1,8 @@
+  RewardRRT:
+    type: geometric::RewardRRT
+    range: 0.0  # maxDistance_ default: 0.0, if 0.0, set on setup()
+    beta: 1.0  # encourage exploration. default: 1.0
+    forgetting_factor: 0.1  # forgetting factor. default: 0.1
+    negative_sigma_limit: 3.0  # limit for negative reward. default: 3.0
+    R_cum: 0.0001  #the variance of the reward_cum noise. default: 0.01^2=0.0001
+    R_inc: 0.0004  #the variance of the reward_inc noise. default: 0.02^2=0.0004
